@@ -1,7 +1,64 @@
+
+.NavigationMenu 
+{
+    background-color: #696969;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    margin-left: -50px;
+}
+
+.NavigationMenu a
+{
+	display: block;
+	float: left;
+	text-decoration: none;
+	color: #FFFFFF;
+	font-size: 20px;
+	padding: 10px 20px 10px 10px;
+	
+}
+
+.NavigationMenu a:hover
+{
+	background-color: #FFFFFF;
+	color: #696969;
+}
+
 body
 {
-	border: 2px solid yellow;   /* set visual border, ddddeleteddd--*/
-	margin: 50px;				 		/*- set margin from left -*/
-	background-color: #F8F8F8;          /*- set background color -*/
-	font-size: 18px;					/*- set default text size -*/
+	margin: 50px;
+	background-color: #F8F8F8;
+	font-size: 18px;
 }
+
+/*- Sections -*/
+.CVBody h2
+{
+	font-size: 20px;
+	text-decoration: underline;
+	margin: 0;
+}
+
+.CVBody h3
+{
+	font-size: 20px;
+	text-decoration: bold;
+	margin: 0;
+}
+
+.CVBody li
+{
+	margin-left: 50px;
+	font-size: 18px;
+}
+
+.CVBody p
+{
+	font-size: 18px;
+	margin: 0;
+}
+
+
+
+
